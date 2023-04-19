@@ -15,6 +15,7 @@
 		41D1281429F00B1700B5B7C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1281329F00B1700B5B7C0 /* HomeScreen.swift */; };
 		41D1281729F00D4C00B5B7C0 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1281629F00D4C00B5B7C0 /* UIView + Extension.swift */; };
 		41D1281929F00E8B00B5B7C0 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1281829F00E8B00B5B7C0 /* UIColor + Extension.swift */; };
+		41D1281B29F0229C00B5B7C0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1281A29F0229C00B5B7C0 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		41D1281329F00B1700B5B7C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		41D1281629F00D4C00B5B7C0 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		41D1281829F00E8B00B5B7C0 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		41D1281A29F0229C00B5B7C0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,9 @@
 		41D1281229F00AF300B5B7C0 /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
-				41D127E029F008EF00B5B7C0 /* HomeViewController.swift */,
 				41D1281329F00B1700B5B7C0 /* HomeScreen.swift */,
+				41D127E029F008EF00B5B7C0 /* HomeViewController.swift */,
+				41D1281A29F0229C00B5B7C0 /* HomeViewModel.swift */,
 			);
 			path = HomeVC;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				41D1281429F00B1700B5B7C0 /* HomeScreen.swift in Sources */,
 				41D127E129F008EF00B5B7C0 /* HomeViewController.swift in Sources */,
+				41D1281B29F0229C00B5B7C0 /* HomeViewModel.swift in Sources */,
 				41D127DD29F008EF00B5B7C0 /* AppDelegate.swift in Sources */,
 				41D1281929F00E8B00B5B7C0 /* UIColor + Extension.swift in Sources */,
 				41D1281729F00D4C00B5B7C0 /* UIView + Extension.swift in Sources */,
