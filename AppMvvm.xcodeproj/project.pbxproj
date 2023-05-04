@@ -18,6 +18,7 @@
 		41D1281B29F0229C00B5B7C0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1281A29F0229C00B5B7C0 /* HomeViewModel.swift */; };
 		41D1282129F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1282029F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift */; };
 		41D1282329F02F0000B5B7C0 /* StoryCardColletctionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1282229F02F0000B5B7C0 /* StoryCardColletctionViewCellScreen.swift */; };
+		41D1282529F03C2F00B5B7C0 /* StoryCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D1282429F03C2F00B5B7C0 /* StoryCardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		41D1281A29F0229C00B5B7C0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		41D1282029F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCardCollectionViewCell.swift; sourceTree = "<group>"; };
 		41D1282229F02F0000B5B7C0 /* StoryCardColletctionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCardColletctionViewCellScreen.swift; sourceTree = "<group>"; };
+		41D1282429F03C2F00B5B7C0 /* StoryCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				41D1281D29F02E0A00B5B7C0 /* Screen */,
 				41D1282029F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift */,
+				41D1282429F03C2F00B5B7C0 /* StoryCardViewModel.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				41D1282329F02F0000B5B7C0 /* StoryCardColletctionViewCellScreen.swift in Sources */,
 				41D127E129F008EF00B5B7C0 /* HomeViewController.swift in Sources */,
 				41D1282129F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift in Sources */,
+				41D1282529F03C2F00B5B7C0 /* StoryCardViewModel.swift in Sources */,
 				41D1281B29F0229C00B5B7C0 /* HomeViewModel.swift in Sources */,
 				41D127DD29F008EF00B5B7C0 /* AppDelegate.swift in Sources */,
 				41D1281929F00E8B00B5B7C0 /* UIColor + Extension.swift in Sources */,
