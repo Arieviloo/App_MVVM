@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41115ACF2A0542D700F6295C /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41115ACE2A0542D700F6295C /* Stories.swift */; };
 		41D127DD29F008EF00B5B7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D127DC29F008EF00B5B7C0 /* AppDelegate.swift */; };
 		41D127DF29F008EF00B5B7C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D127DE29F008EF00B5B7C0 /* SceneDelegate.swift */; };
 		41D127E129F008EF00B5B7C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D127E029F008EF00B5B7C0 /* HomeViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41115ACE2A0542D700F6295C /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 		41D127D929F008EF00B5B7C0 /* AppMvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D127DC29F008EF00B5B7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D127DE29F008EF00B5B7C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41115ACD2A0542C900F6295C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41115ACE2A0542D700F6295C /* Stories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		41D127D029F008EF00B5B7C0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		41D127DB29F008EF00B5B7C0 /* AppMvvm */ = {
 			isa = PBXGroup;
 			children = (
+				41115ACD2A0542C900F6295C /* Model */,
 				41D1281529F00D3600B5B7C0 /* Extension */,
 				41D1281229F00AF300B5B7C0 /* HomeVC */,
 				41D127DC29F008EF00B5B7C0 /* AppDelegate.swift */,
@@ -192,6 +203,7 @@
 				41D127E129F008EF00B5B7C0 /* HomeViewController.swift in Sources */,
 				41D1282129F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift in Sources */,
 				41D1282529F03C2F00B5B7C0 /* StoryCardViewModel.swift in Sources */,
+				41115ACF2A0542D700F6295C /* Stories.swift in Sources */,
 				41D1281B29F0229C00B5B7C0 /* HomeViewModel.swift in Sources */,
 				41D127DD29F008EF00B5B7C0 /* AppDelegate.swift in Sources */,
 				41D1281929F00E8B00B5B7C0 /* UIColor + Extension.swift in Sources */,

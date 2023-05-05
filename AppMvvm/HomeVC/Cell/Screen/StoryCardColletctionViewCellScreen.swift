@@ -27,6 +27,7 @@ class StoryCardColletctionViewCellScreen: UIView {
         //register
         cv.contentInset = UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0)
         cv.backgroundColor = .clear
+        
         return cv
     }()
     
