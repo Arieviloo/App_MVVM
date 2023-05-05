@@ -66,8 +66,8 @@
 		41115AD02A05461F00F6295C /* StoryCardCollentionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				41D1282029F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift */,
 				41D1282229F02F0000B5B7C0 /* StoryCardColletctionViewCellScreen.swift */,
+				41D1282029F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift */,
 				41D1282429F03C2F00B5B7C0 /* StoryCardViewModel.swift */,
 			);
 			path = StoryCardCollentionViewCell;
@@ -76,8 +76,8 @@
 		41115AD12A0546D000F6295C /* StoryCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				41115AD22A05471D00F6295C /* StoryCollectionViewCell.swift */,
 				41115AD42A05474700F6295C /* StoryCollectionViewCellScreen.swift */,
+				41115AD22A05471D00F6295C /* StoryCollectionViewCell.swift */,
 			);
 			path = StoryCollectionViewCell;
 			sourceTree = "<group>";
