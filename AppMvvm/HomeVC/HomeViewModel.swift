@@ -9,6 +9,13 @@ import UIKit
 
 class HomeViewModel {
     
+    private var posts = [
+        Posts(profileImages: "img2", userName: "Jack", postImage: "post1"),
+        Posts(profileImages: "img4", userName: "Samuel", postImage: "post2"),
+        Posts(profileImages: "img3", userName: "Karolina", postImage: "post3"),
+        Posts(profileImages: "img6", userName: "puggy_101", postImage: "post4")
+    ]
+    
     private var story = [
         Stories(image: "img1", userName: "Add Story"),
         Stories(image: "img2", userName: "Jack"),
@@ -18,6 +25,8 @@ class HomeViewModel {
         Stories(image: "img6", userName: "puggy_101"),
         Stories(image: "img7", userName: "Dheeraj"),
     ]
+    
+    public var getListPost: [Posts] { posts }
     
     public var getListStory: [Stories] { story }
     
