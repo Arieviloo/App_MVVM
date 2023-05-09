@@ -14,6 +14,8 @@
 		41115ADC2A09377400F6295C /* PostCardCollectionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41115ADB2A09377400F6295C /* PostCardCollectionViewCellScreen.swift */; };
 		41115AE02A094C3500F6295C /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41115ADF2A094C3500F6295C /* Posts.swift */; };
 		41115AE22A09500000F6295C /* PostCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41115AE12A09500000F6295C /* PostCardViewModel.swift */; };
+		411E68C72A0A7DE7003C4317 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E68C62A0A7DE7003C4317 /* PostCollectionViewCell.swift */; };
+		411E68C92A0A7E12003C4317 /* PostCollectionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E68C82A0A7E12003C4317 /* PostCollectionViewCellScreen.swift */; };
 		41D127DD29F008EF00B5B7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D127DC29F008EF00B5B7C0 /* AppDelegate.swift */; };
 		41D127DF29F008EF00B5B7C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D127DE29F008EF00B5B7C0 /* SceneDelegate.swift */; };
 		41D127E129F008EF00B5B7C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D127E029F008EF00B5B7C0 /* HomeViewController.swift */; };
@@ -36,6 +38,8 @@
 		41115ADB2A09377400F6295C /* PostCardCollectionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardCollectionViewCellScreen.swift; sourceTree = "<group>"; };
 		41115ADF2A094C3500F6295C /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		41115AE12A09500000F6295C /* PostCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardViewModel.swift; sourceTree = "<group>"; };
+		411E68C62A0A7DE7003C4317 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		411E68C82A0A7E12003C4317 /* PostCollectionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCellScreen.swift; sourceTree = "<group>"; };
 		41D127D929F008EF00B5B7C0 /* AppMvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMvvm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D127DC29F008EF00B5B7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D127DE29F008EF00B5B7C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 		41115AD72A0936E400F6295C /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				411E68C52A0A7DBB003C4317 /* PostCollectionViewCell */,
 				41115AD82A0936ED00F6295C /* PostCardCollectionViewCell */,
 			);
 			path = Post;
@@ -116,6 +121,15 @@
 				41115AE12A09500000F6295C /* PostCardViewModel.swift */,
 			);
 			path = PostCardCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		411E68C52A0A7DBB003C4317 /* PostCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				411E68C62A0A7DE7003C4317 /* PostCollectionViewCell.swift */,
+				411E68C82A0A7E12003C4317 /* PostCollectionViewCellScreen.swift */,
+			);
+			path = PostCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		41D127D029F008EF00B5B7C0 = {
@@ -249,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D1281429F00B1700B5B7C0 /* HomeScreen.swift in Sources */,
+				411E68C92A0A7E12003C4317 /* PostCollectionViewCellScreen.swift in Sources */,
 				41115AD52A05474700F6295C /* StoryCollectionViewCellScreen.swift in Sources */,
 				41115ADA2A09373000F6295C /* PostCardCollectionViewCell.swift in Sources */,
 				41D1282329F02F0000B5B7C0 /* StoryCardColletctionViewCellScreen.swift in Sources */,
@@ -256,6 +271,7 @@
 				41D1282129F02EB600B5B7C0 /* StoryCardCollectionViewCell.swift in Sources */,
 				41115AD32A05471D00F6295C /* StoryCollectionViewCell.swift in Sources */,
 				41D1282529F03C2F00B5B7C0 /* StoryCardViewModel.swift in Sources */,
+				411E68C72A0A7DE7003C4317 /* PostCollectionViewCell.swift in Sources */,
 				41115AE22A09500000F6295C /* PostCardViewModel.swift in Sources */,
 				41115ADC2A09377400F6295C /* PostCardCollectionViewCellScreen.swift in Sources */,
 				41115ACF2A0542D700F6295C /* Stories.swift in Sources */,
