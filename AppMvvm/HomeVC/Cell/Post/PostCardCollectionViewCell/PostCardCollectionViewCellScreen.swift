@@ -15,8 +15,9 @@ class PostCardCollectionViewCellScreen: UIView {
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.translatesAutoresizingMaskIntoConstraints = false
         cv.showsVerticalScrollIndicator = false
+        cv.register(PostCollectionViewCell.self, forCellWithReuseIdentifier: PostCollectionViewCell.identifier)
         cv.backgroundColor = .clear
-        
+   
         return cv
     }()
     
@@ -29,6 +30,7 @@ class PostCardCollectionViewCellScreen: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(collectionView)
+        collectionView.pin(to: self)
     }
     
     required init?(coder: NSCoder) {

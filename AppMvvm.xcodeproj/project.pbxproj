@@ -126,8 +126,8 @@
 		411E68C52A0A7DBB003C4317 /* PostCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				411E68C62A0A7DE7003C4317 /* PostCollectionViewCell.swift */,
 				411E68C82A0A7E12003C4317 /* PostCollectionViewCellScreen.swift */,
+				411E68C62A0A7DE7003C4317 /* PostCollectionViewCell.swift */,
 			);
 			path = PostCollectionViewCell;
 			sourceTree = "<group>";
