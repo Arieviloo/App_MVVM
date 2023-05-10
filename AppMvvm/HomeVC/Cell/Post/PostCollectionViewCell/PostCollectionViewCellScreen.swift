@@ -90,7 +90,13 @@ class PostCollectionViewCellScreen: UIView {
     
     
     @objc func tappedLikeImageView() {
-        
+        UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseIn ,animations: {
+            self.likeImageView.center.y += 50
+        }, completion: { finished in
+            self.likeImageView.center.y -= 50
+            self.likeImageView.isHidden = true
+            
+        })
     }
     
     
