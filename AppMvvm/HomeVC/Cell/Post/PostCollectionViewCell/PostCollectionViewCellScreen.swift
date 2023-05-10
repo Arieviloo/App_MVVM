@@ -21,14 +21,14 @@ class PostCollectionViewCellScreen: UIView {
     
     lazy var likeImageView: UIImageView = {
         let img = UIImageView()
-//        let tap = UITapGestureRecognizer(target: self, action: #selector(tappedLikeImageView))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tappedLikeImageView))
         img.translatesAutoresizingMaskIntoConstraints = false
         img.image = UIImage(named: "red-heart")
         img.contentMode = .scaleAspectFill
-//        img.addGestureRecognizer(tap)
+        img.addGestureRecognizer(tap)
         img.isUserInteractionEnabled = true
-        img.isHidden = false
-//        tap.numberOfTapsRequired = 1
+        img.isHidden = true
+        tap.numberOfTapsRequired = 1
         return img
     }()
     
@@ -52,14 +52,14 @@ class PostCollectionViewCellScreen: UIView {
     
     lazy var postImageView: UIImageView = {
         let img = UIImageView()
-//        let tap = UITapGestureRecognizer(target: self, action: #selector(tappedPostImageView))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tappedPostImageView))
         img.translatesAutoresizingMaskIntoConstraints = false
         img.contentMode = .scaleAspectFill
         img.clipsToBounds = true
         img.layer.cornerRadius = 15
-//        img.addGestureRecognizer(tap)
+        img.addGestureRecognizer(tap)
         img.isUserInteractionEnabled = true
-//        tap.numberOfTapsRequired = 2
+        tap.numberOfTapsRequired = 2
         return img
     }()
     
@@ -68,7 +68,7 @@ class PostCollectionViewCellScreen: UIView {
         img.translatesAutoresizingMaskIntoConstraints = false
         img.contentMode = .scaleAspectFill
         img.image = UIImage(named: "white-heart")
-        img.isHidden = false
+        img.isHidden = true
         return img
     }()
     
@@ -95,6 +95,20 @@ class PostCollectionViewCellScreen: UIView {
     
     
     @objc func tappedPostImageView() {
+        heartImageView.isHidden = false
+        UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0, options: .curveEaseIn, animations: {
+            self.heartImageView.transform = .init(scaleX: 1.8, y: 1.8)
+            self.postImageView.transform = .init(scaleX: 1.05, y: 1.05)
+            self.likeImageView.center.y += 50
+        }, completion: { finished in
+            UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0, options: .curveEaseIn, animations: {
+                self.postImageView.transform = .identity
+                self.likeImageView.center.y -= 50
+                self.likeImageView.isHidden = false
+            })
+            self.heartImageView.transform = .identity
+            self.heartImageView.isHidden = true
+        })
         
     }
     
